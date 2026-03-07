@@ -1,0 +1,12 @@
+// Local Tests
+
+### Main Route (Hello World)
+GET http://localhost:3000/
+
+
+### Get all contacts
+GET http://localhost:3000/contacts
+
+
+### Get a specific contact by ID
+GET http://localhost:3000/contacts/69ac9ca95b733e98dd9f4ab8
