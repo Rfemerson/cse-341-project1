@@ -5,10 +5,10 @@
     "description": "API for managing contacts",
     "version": "1.0.0"
   },
-  "host": "https://cse-341-project1-ty88.onrender.com",
+  "host": "cse-341-project1-ty88.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
