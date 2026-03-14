@@ -9,4 +9,31 @@ GET http://localhost:3000/contacts
 
 
 ### Get a specific contact by ID
-GET http://localhost:3000/contacts/69ac9ca95b733e98dd9f4ab8
+GET http://localhost:3000/contacts/69ac9dbf5b733e98dd9f4ab9
+
+### Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "blue",
+    "birthday": "1990-01-01"
+}
+
+### Update an existing contact
+PUT http://localhost:3000/contacts/69ac9dbf5b733e98dd9f4ab9
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",  
+    "email": "jane.doe@example.com",
+    "favoriteColor": "green",
+    "birthday": "1995-05-05"
+}
+
+### Delete a contact
+DELETE http://localhost:3000/contacts/69ac9dbf5b733e98dd9f4ab9      
